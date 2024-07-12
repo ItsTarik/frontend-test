@@ -1,5 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
+  @apply max-w-[970px];
+  @apply mx-auto;
 }
 
 .header-bg {
@@ -7,4 +13,8 @@ body {
   box-shadow: 1px 6px 8px 1px rgba(151, 143, 143, 0.59);
   -webkit-box-shadow: 1px 6px 8px 1px rgba(151, 143, 143, 0.59);
   -moz-box-shadow: 1px 6px 8px 1px rgba(151, 143, 143, 0.59);
+}
+
+.card-text-shadow {
+  text-shadow: 1px 1px 1px #0000004d;
 }
